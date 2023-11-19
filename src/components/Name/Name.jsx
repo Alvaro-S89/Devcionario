@@ -3,9 +3,9 @@ import './Name.css'
 
 function Name() {
   return (
-    <div className='titleName'>
+    <h4 className='titleName'>
         Devcionario
-    </div>
+    </h4>
   )
 }
 

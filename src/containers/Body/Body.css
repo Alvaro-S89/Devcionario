@@ -1,0 +1,24 @@
+
+.definition {
+display: flex;
+position: relative;
+}
+
+.quotes {
+    font-size: 5rem;
+}
+
+.leftQuotes {
+    transform: translateY(10%);
+}
+
+.rightQuotes {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-70%);
+    right: 100;
+}
+
+.desc {
+    font-size: 3rem;
+}
