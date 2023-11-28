@@ -3,9 +3,11 @@ import './Name.css'
 
 function Name() {
   return (
-    <h4 className='titleName'>
+    <div className='logo'> 
+      <h4 className='titleName'>
         Devcionario
-    </h4>
+      </h4>
+    </div>
   )
 }
 

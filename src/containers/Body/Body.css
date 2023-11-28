@@ -1,7 +1,12 @@
 
 .definition {
 display: flex;
-position: relative;
+}
+
+.desc {
+    position: relative;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .quotes {
@@ -17,8 +22,4 @@ position: relative;
     top: 100%;
     transform: translateY(-70%);
     right: 100;
-}
-
-.desc {
-    font-size: 3rem;
 }
