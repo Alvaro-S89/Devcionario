@@ -13,11 +13,21 @@ function Body( {selectedResult} ) {
                 {selectedResult.titulo}
             </h1>
             <div className='definition'>
-                <p className='desc'>
-                    <ImQuotesLeft className='quotes leftQuotes'/>
-                        {selectedResult.contenido}
-                    <ImQuotesRight className='quotes rightQuotes'/>
-                </p>
+                <div className='desc'>
+                    {selectedResult.contenido ? (
+                        <>
+                            <ImQuotesLeft className='quotes leftQuotes'/>
+                                <span>{selectedResult.contenido}</span>
+                            <ImQuotesRight className='quotes rightQuotes'/>
+                        </>
+                    ) : (
+                        <>
+                            <ImQuotesLeft className='quotes leftQuotes'/>
+                                Aprender es un tesoro que seguirá a su dueño por todas partes.
+                            <ImQuotesRight className='quotes rightQuotes'/>
+                        </>
+                    )}
+                </div>
             </div>
         </>
     )

@@ -1,6 +1,12 @@
-.logo {
+.name {
+    display: flex;
     font-size: 4rem;
     margin-left: 4rem;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
 }
 
 .titleName {

@@ -1,6 +1,9 @@
 
 .definition {
-display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
 }
 
 .desc {
